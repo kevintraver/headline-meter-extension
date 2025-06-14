@@ -1,9 +1,10 @@
 {
   "manifest_version": 3,
-  "name": "URL Displayer",
+  "name": "Headline Meter",
   "version": "1.0",
-  "description": "Displays the current tab's URL.",
-  "permissions": ["tabs"],
+  "description": "Analyzes headline",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["http://localhost:4111/*"],
   "action": {
     "default_popup": "popup.html"
   }

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@mastra/client-js": "^0.10.4"
+  }
+}
