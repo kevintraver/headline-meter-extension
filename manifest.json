@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "URL Displayer",
+  "version": "1.0",
+  "description": "Displays the current tab's URL.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
